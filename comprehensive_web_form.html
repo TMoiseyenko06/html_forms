@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Comprehensive HTML Form</h1>
+    <form action="">
+        <h3>Choose a programming language</h3>
+        <select name="Programming" id="programming" >
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="html">HTML</option>
+            <option value="C#">C#</option>
+        </select><br><br>
+        <h3>What is your level of expertise?</h3>
+        <input type="radio" id="Beginner" value="Beginner" name="level" aria-checked="false">
+        <label for="Beginner">Beginner</label><br>
+        <input type="radio" value="Intermediate"  id="Intermediate" name="level" aria-checked="false">
+        <label for="Intermediate">Intermediate</label><br>
+        <input type="radio" value="Advanced" name="level" id="Advanced" aria-checked="false">
+        <label for="Advanced">Advanced</label><br><br>
+        <h3>What platforms do you preffer?</h3>
+        <input type="checkbox" id="web" name="platform" aria-checked="false">
+        <label for="web">Web</label><br>
+        <input type="checkbox" id="mobile" name="platform" aria-checked="false">
+        <label for="mobile">Mobile</label><br>
+        <input type="checkbox" id="desktop" name="platform" aria-checked="false">
+        <label for="desktop">Desktop</label>
+    </form>
+</body>
+</html>
